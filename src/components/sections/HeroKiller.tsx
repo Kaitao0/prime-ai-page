@@ -80,7 +80,7 @@ const HeroKiller: React.FC = () => {
                   </div>
                 </div>
                 
-                <Button variant="secondary" size="lg" className="w-full mb-4">
+                <Button variant="secondary" size="lg" className="w-full mb-4" onClick={(e) => e.preventDefault()}>
                   Inizia ora - Accedi al corso
                 </Button>
                 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { CheckCircle, Clock, Zap, Shield } from 'lucide-react';
+import { CircleCheck as CheckCircle, Clock, Zap, Shield } from 'lucide-react';
 import { AnimatedCounter } from '@/components/ui/animated-counter';
 import { useCountdown } from '@/hooks/use-countdown';
 
@@ -57,7 +57,7 @@ const StrategicPricing: React.FC = () => {
           </div>
           
           {/* Main CTA */}
-          <Button variant="secondary" size="lg" className="w-full mb-4">
+          <Button variant="secondary" size="lg" className="w-full mb-4" onClick={(e) => e.preventDefault()}>
             Sì, voglio imparare - Acquista il corso
           </Button>
           
